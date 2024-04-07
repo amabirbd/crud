@@ -9,7 +9,7 @@ run,
 
 server should be running at: `http://localhost:3000/`
 
-## Sample payload
+## Sample order payload
 
 `{
     "user_id": "user_id",

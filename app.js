@@ -29,6 +29,12 @@ const validateOrderData = (data) => {
 const generateOrderId = () => {
     return nanoid(8);
 }
+
+// Home
+app.get('/', (req, res) => {
+        res.status(200).json({ message: 'Welcome to homepage for retail management system.' });
+});
+
 // GET endpoint to fetch all orders
 app.get('/orders', (req, res) => {
     try {
