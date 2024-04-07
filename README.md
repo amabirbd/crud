@@ -19,3 +19,9 @@ server should be running at: `http://localhost:3000/`
     },
     "payment_info": "Payment details"
 }`
+
+## Sample order payload
+
+I have hosted the project in render. You can make request to the following URL.
+
+[https://crud-1-1ybv.onrender.com/orders](https://crud-1-1ybv.onrender.com/orders)
